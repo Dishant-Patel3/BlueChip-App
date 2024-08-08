@@ -260,9 +260,9 @@ public class Rec extends JPanel{
         try {
             String url1 = "";
             if(g == 0) {
-                url1 = "https://api.themoviedb.org/3/discover/tv?api_key=b2dda13ebe4ce2966844623c1c4d1a4d&language=en-US&sort_by=popularity.desc&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false&with_watch_monetization_types=buy&with_status=0&with_type=0";
+                url1 = "";
             } else if(g != 0) {
-                url1 = "https://api.themoviedb.org/3/discover/tv?api_key=b2dda13ebe4ce2966844623c1c4d1a4d&language=en-US&sort_by=popularity.desc&page=" + p + "&timezone=America%2FNew_York&with_genres=" + g + "&include_null_first_air_dates=false&with_watch_providers=" + w + "&with_watch_monetization_types=buy&with_status=0&with_type=0";
+                url1 = "";
             }
             URL url = new URL(url1);
 
@@ -311,9 +311,9 @@ public class Rec extends JPanel{
         try {
             String url1 = "";
             if(g == 0) {
-                url1 = "https://api.themoviedb.org/3/discover/movie?api_key=b2dda13ebe4ce2966844623c1c4d1a4d&language=en-US&sort_by=popularity.desc&with_watch_monetization_types=buy";
+                url1 = "";
             } else if(g != 0) {
-                url1 = "https://api.themoviedb.org/3/discover/movie?api_key=b2dda13ebe4ce2966844623c1c4d1a4d&language=en-US&sort_by=popularity.desc&page=" + p + "&with_genres=" + g + "&with_watch_providers=" + w + "&with_watch_monetization_types=buy";
+                url1 = "";
             }
             URL url = new URL(url1);
 
